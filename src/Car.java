@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Car {
+public class Car extends MotorVehicle {
+
+    public Car(String modelName, int wheelsCount) {
+        super(modelName, wheelsCount);
+    }
 }
